@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #544444;
+  color: aliceblue;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Layout*/
+.layoutNav {
+  border: 2px solid snow;
+  font-size: 26px;
+}
+
+.layoutUl {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+ 
+}
+.layoutUl li {
+  padding: 10px;
+}
+.layoutUl li:hover {
+  transform: scale(1.1);
+  color: silver;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*Home*/
+
+.homeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 100px  auto 0 auto;
+  height: 600px;
+  width: 600px;
+ 
+}
+
+.homeContainer div {
+  border: 1px solid white;
+  box-sizing: border-box;
+  height: 300px;
+  width: 300px;
+}
+.homeLeftRoof {
+
+  transform: rotate(45deg);
+  border: none !important;
+  border-left:  solid white 2px !important;
+  width: 600px;
+}
+.homeRightRoof {
+  
+  transform: rotate(-45deg);
+  border: none !important;
+  border-right:  solid white 2px !important;
+}
+
+.homeLeftSide, .homeRightSide  {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wind {
+  width: 80px !important;
+  height: 80px !important;
+  background-color: black;
+}
+
+/*Blogs*/
+article {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/*No page */
+
+
