@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/regForm/static/css/main.4664e46f.css",
+    "main.js": "/regForm/static/js/main.172ec2e7.js",
+    "index.html": "/regForm/index.html",
+    "main.4664e46f.css.map": "/regForm/static/css/main.4664e46f.css.map",
+    "main.172ec2e7.js.map": "/regForm/static/js/main.172ec2e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4664e46f.css",
+    "static/js/main.172ec2e7.js"
+  ]
+}
